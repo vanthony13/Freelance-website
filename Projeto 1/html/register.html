@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/register.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="body" class="body">
+    <nav id="nav" class="nav">
+      <div class="nav-margin">
+        <div class="f dropdown">
+          <button id="dropbtn" class="dropbtn">
+            <a href="../html/home.html">Inicio</a>
+            <i class="fa fa-solid fa-square-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="dropbtn" class="dropbtn">
+            Encontrar Trabalho
+            <i class="fa fa-solid fa-square-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="dropbtn" class="dropbtn">
+            Pescadores
+            <i class="fa fa-solid fa-square-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-margin-right">
+        <div class="f last">
+          <i id="entericon" class="fa-solid fa-right-to-bracket"></i>
+          <button id="enterbtn" class="dropbtn lastbtn"><a href="../html/login.html">Entrar</a></button>
+        </div>
+        <div class="last">
+          <button id="dropbtn" class="dropbtn lastbtn">Registar</button>
+        </div>
+      </div>
+    </nav>
+
+    <div id="main" class="main">
+      <div class="container">
+        <center>
+          <h4 id="welcome">
+            Vamos criar sua conta!<br /><span id="desc">Já tem uma conta?<a id="register-span"
+                href="../html/login.html">Entrar!</a></span>
+          </h4>
+          <div class="btns">
+            <button id="regbtn1" class="regbtn"> <i class="fa-solid fa-user"></i> Freelancer</button>
+            <button id="regbtn2" class="regbtn"><i class=" fa-solid fa-suitcase"></i> Empregador</button>
+
+          </div>
+        </center>
+        <form style="max-width: 400px" action="" method="post">
+          <div class="input-icons">
+            <i class="fa-fa fa-solid fa-user"></i>
+            <input class="input" type="text" placeholder="Nome Completo" name="uname" required />
+            <i class="fa-fa fa-solid fa-user"></i>
+            <input class="input" type="text" placeholder="Nome de usuario" name="uname" required />
+            <i class="fa-fa fa-solid fa-envelope"></i>
+            <input class="input" type="text" placeholder="Endereço de email" name="uname" required />
+            <i class="fa-fa fa-solid fa-lock"></i>
+            <input class="input" type="password" placeholder="Senha" name="psw" required />
+
+            <input type="checkbox" id="terms" name="terms" value="terms" />
+            <label id="terms-label" for="terms">Ao clicar no botão Registrar, voce concorda com nossos
+              Termos e Condições</label><br />
+            <button id="submit" type="submit" value="submit">Registro</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <h4>Minha conta</h4>
+      <p>Conecte-se</p>
+      <p>Registro</p>
+      <p>Publique um trabalho</p>
+      <hr />
+      <p id="copyright">
+        2022 Todos os direitos reservados
+        <i onclick="topFunction()" class="fa-solid fa-sort-up"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </p>
+    </footer>
+  </div>
+  <script>
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</body>
+
+</html>

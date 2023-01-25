@@ -1,0 +1,586 @@
+.page-1 {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+
+.page-2 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.page-3 {
+  height: 100vh;
+  width: 100%;
+  margin-top: 25%;
+  background-color: #f9f9f9;
+
+}
+
+.page-4 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  margin-top: -150px;
+}
+
+.page-5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: -200px;
+}
+
+nav {
+  background-color: transparent;
+  font-family: Arial;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+.f {
+  border-left: 1px solid rgba(202, 202, 202, 0.87);
+}
+
+.nav-margin {
+  margin-left: 100px;
+}
+
+nav .dropdown {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.last {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.lastbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav-margin-right {
+  float: right;
+}
+
+.escrita h4 {
+  color: white;
+  font-size: 25px;
+}
+
+.descr {
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 25px;
+}
+
+.extra {
+  box-shadow: 5px 10px 8px #88888846;
+}
+
+.escrita {
+  margin-left: 200px;
+  margin-top: 160px;
+}
+
+.encontrar_trabalho {
+  background-color: #1ab082;
+  width: fit-content;
+  padding: 5px;
+  margin-left: 200px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.842);
+  border-radius: 6%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  margin-left: 200px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.search {
+  margin: 0px;
+  padding: 20px;
+  width: 65%;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.search-form button {
+  position: absolute;
+  border-radius: 5px;
+  right: 405px;
+  z-index: 2;
+  border: none;
+  top: 6px;
+  height: 35px;
+  cursor: pointer;
+  color: white;
+  background-color: #22b386;
+  transform: translateX(2px);
+}
+
+.bottom {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.bottom h4,
+span {
+  text-align: center;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.bottom-div,
+.l-bottom-div {
+  margin-inline-end: 55px;
+}
+
+.l-bottom-div span {
+  padding-left: 30px;
+  border-left: 1px solid rgba(255, 255, 255, 0.308);
+  padding-top: 25px;
+}
+
+.page-2 h2 {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.card {
+  display: flex;
+  width: 22%;
+  margin: 15px;
+  flex-direction: column;
+  height: 150px;
+  padding-top: 20px;
+}
+
+.card:hover {
+  background-color: #22b386;
+  color: white;
+}
+
+.card i,
+p {
+  text-align: center;
+}
+
+.card i {
+  color: #22b386;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.card p:nth-child(2) {
+  background-color: #eaeae9;
+  width: 25px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 18px;
+}
+
+.card-2 .fa {
+  font-size: 50px;
+  color: #bac9c5;
+}
+
+.card-2 i:nth-child(2) {
+  color: #22b386;
+  margin-left: 210px;
+  margin-top: -10px;
+  z-index: 2;
+}
+
+.card-2 p:nth-child(4) {
+  color: gray;
+}
+
+.diego {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.como-funciona {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-2-top {
+  background-color: #f9f9f9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page3-container {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+
+
+
+}
+
+.proj {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+  -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+  -webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+
+
+}
+
+#titulo {
+  font-size: 20px;
+}
+
+#proc {
+  font-size: 15px;
+  color: #22b386;
+  float: right;
+}
+
+.preço {
+  float: right;
+  color: black;
+  margin-top: -40px;
+}
+
+#desc-preço {
+  float: right;
+  color: gray;
+  margin-top: -20px;
+}
+
+.urg-btn {
+  position: absolute;
+  margin-top: -20px;
+  border: none;
+  color: brown;
+}
+
+#urg-btn {
+  color: blue;
+}
+
+.qntd {
+  color: gray;
+}
+
+.proj i {
+  color: gray;
+}
+
+.cat-btn {
+  margin-top: 15px;
+  border: none;
+  background-color: rgba(32, 178, 171, 0.158);
+  color: #22b386
+}
+
+.last-cat-btn {
+  float: right;
+  padding: 8px;
+  width: 120px;
+  background-color: #22b386;
+  color: white;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+
+}
+
+.proj:nth-child(3) {
+  background-color: #f9f9f9;
+}
+
+.proj:hover {
+  border-left: 2px solid #22b386;
+}
+
+.page-4 img {
+  width: 5%;
+  height: 10%;
+  margin-top: 30px;
+}
+
+.nome-e-desc {
+  margin-left: 15px;
+}
+
+.img-e-nomedesc {
+  display: flex;
+
+}
+
+.tempo-btn {
+  float: right;
+  margin-top: -50px;
+  padding: 5px;
+  border-color: #22b386;
+  color: #22b386;
+  background-color: white;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.proj-container {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.151);
+}
+
+.page-4 .proj {
+  border: none;
+  box-shadow: none;
+}
+
+.profile {
+  background-color: #f9f9f9;
+  width: 30%;
+  padding-bottom: 30px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.151);
+  padding-left: 7px;
+}
+
+.page-5 .image {
+  width: 35%;
+  margin: auto;
+  border-radius: 50%;
+
+}
+
+.page-5 img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.page-5 span {
+  color: gray;
+}
+
+#checked1,
+#checked2,
+#checked3,
+#checked4,
+#checked5 {
+  color: orange;
+  font-size: 15px;
+}
+
+#notchecked1,
+#notchecked2,
+#notchecked3,
+#notchecked4,
+#notchecked5 {
+  font-size: 15px;
+  color: rgba(153, 153, 153, 0.719);
+}
+
+#rating {
+  color: white;
+  background-color: orange;
+  padding: 2px;
+}
+
+.page-5 .top {
+  padding-top: 35px;
+  background-color: white;
+  padding-bottom: 50px;
+
+}
+
+.page-5 .bottom {
+  margin: auto;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.page-5 button {
+  width: 90%;
+  padding: 9px;
+  background-color: #22b386;
+  color: white;
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.page-5 .profile-container {
+  display: flex;
+  gap: 25px;
+}
+
+.page-5 .page3-container {
+  padding-bottom: 50px;
+}
+
+.pre-footer {
+  background-color: white;
+  padding-top: 50px;
+}
+
+.bottom-desc {
+  display: flex;
+
+}
+
+.icon-box {
+  margin-inline-start: 90px;
+}
+
+.bottom-desc div i {
+  font-size: 40px;
+  color: rgba(128, 128, 128, 0.671);
+}
+
+.bottom-desc div p {
+  font-size: 30px;
+  color: #22b386;
+  margin-bottom: 0px;
+}
+
+.pub {
+  border-right: 1px solid rgba(202, 202, 202, 0.87);
+  padding-right: 19px;
+}
+
+footer {
+  padding-top: 50px;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white;
+  padding-bottom: 35px;
+}
+
+footer h4 {
+  margin-left: 250px;
+}
+
+#copyright {
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+
+#copyright span {
+  float: left;
+  margin-left: 120px;
+  color: white;
+}
+
+#copyright i {
+  float: right;
+  margin-inline-end: 10px;
+  padding: 10px;
+
+}
+
+#copyright i:nth-child(7) {
+  border-left: 1px solid rgba(177, 177, 177, 0.87);
+  padding-left: 20px;
+
+}
+
+#copyright i:nth-child(1) {
+  margin-left: 100px;
+  background-color: #22b386;
+  border-radius: 2px 2px 2px 2px;
+  padding-bottom: 5px;
+}
+
+#copyright button {
+  background-color: transparent;
+  border: none;
+  position: inherit;
+}
+
+#up {
+  background-color: #22b386;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: -5px;
+}
+
+#arrow1,
+#arrow2,
+#arrow3 {
+  color: rgb(145, 145, 145);
+  font-size: 20px;
+}

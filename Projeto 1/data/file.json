@@ -1,0 +1,24 @@
+[{"name":"Gestão de Projetos com Finanças",
+  "urgencia":["urgente","nao urgente"],
+  "preço":"$ 50 - $ 100",
+  "qntdLance":"3 Lances",
+  "mediaLance":"Lance medio de US$ 65",
+  "tempo":"3 meses atras",
+  "categoria":["Contabilidade","Consultando","excel","Juridico","Redação Juridica"]},
+
+  {"name":"Aplicativo de compartilhamento de fotos e mensagens",
+  "urgencia":["urgente","nao urgente"],
+  "preço":"$ 50.000 - $ 100.000",
+  "qntdLance":"2 Lances",
+  "mediaLance":"Lance medio de US$ 12.944",
+  "tempo":"ha 4 meses",
+  "categoria":["Android","Android","IOS","Iphone","Desenvolvimento de aplicativos moveis"]},
+
+  {"name":"Arquiteta e designer de interiores",
+  "destaque":["destaque","nao destaque"],
+  "preço":"$ 5.000 - $ 3.000",
+  "qntdLance":"2 Lances",
+  "mediaLance":"Lance medio de US$ 12",
+  "tempo":"ha 4 meses",
+  "categoria":["Projeto de arquitetura","Design grafico","Empregos para qualquer um","Design de logotipo","Design de produto"]}
+]
